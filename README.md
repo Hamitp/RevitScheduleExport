@@ -101,18 +101,6 @@ Sebep: Bağımlı dll’ler aynı klasörde değil.
 * RAR içindeki **tüm** `.dll` dosyalarını
   `C:\RevitAddins\ScheduleExcelExport\` klasörüne tekrar kopyala.
 
-### C) “RevitAPI.dll bulunamadı” gibi bir hata
-
-Normalde olmaz (Revit kendi API dll’lerini sağlar). Eğer olursa:
-
-* Yanlışlıkla Revit klasöründen dll kopyalayıp karıştırmış olabilirsin.
-* Çözüm: Sadece eklenti klasörüne (C:\RevitAddins...) kendi çıktını koy.
-
-### D) Buton var ama ikon yok
-
-* Bu sadece görsel bir problem; eklenti yine çalışır.
-* Çözüm (geliştirme tarafı): icon16.png / icon32.png dosyalarının “Embedded Resource” olduğundan emin olmak gerekir.
-
 ---
 
 ## 8) Kaldırma (Uninstall)
