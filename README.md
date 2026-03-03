@@ -98,7 +98,7 @@ Sebep: Bağımlı dll’ler aynı klasörde değil.
 
 Çözüm:
 
-* `bin\Release` içindeki **tüm** `.dll` dosyalarını
+* RAR içindeki **tüm** `.dll` dosyalarını
   `C:\RevitAddins\ScheduleExcelExport\` klasörüne tekrar kopyala.
 
 ### C) “RevitAPI.dll bulunamadı” gibi bir hata
